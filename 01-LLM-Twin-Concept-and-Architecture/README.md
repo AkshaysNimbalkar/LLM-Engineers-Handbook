@@ -12,7 +12,7 @@ The chapter "Understanding the LLM Twin Concept and Architecture" introduces the
 
 ```bash
 <p align="center">
-  <img src="Images/FTI-Pipeline.png">
+  <img src="images/FTI-Pipeline.png">
 </p>
 ```
 
@@ -20,7 +20,7 @@ The chapter "Understanding the LLM Twin Concept and Architecture" introduces the
 
 ```bash
 <p align="center">
-  <img src="Images/LLM-twin-high-level-architecture.png">
+  <img src="images/LLM-twin-high-level-architecture.png">
 </p>
 ```
 
