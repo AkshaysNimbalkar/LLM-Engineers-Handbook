@@ -10,19 +10,18 @@ The chapter "Understanding the LLM Twin Concept and Architecture" introduces the
 
 ## FTI Pipeline: Feature, Train and Inference pipeline Image:
 
-```bash
+
 <p align="center">
-  <img src="../images/FTI-Pipeline.png">
+  <img src="../images/FTI-Pipeline.png" width="400px">
 </p>
-```
+
 
 4. System Architecture of LLM Twin: The chapter details how to apply the FTI pipeline design to create a concerted architecture for the LLM Twin. It emphasizes the need to harmonize various components, including data collection, feature processing, training, and inference to ensure a cohesive output.
 
-```bash
 <p align="center">
-  <img src="../images/LLM-twin-high-level-architecture.png">
+  <img src="../images/LLM-twin-high-level-architecture.png" width="400px">
 </p>
-```
+
 
 5. Technical Requirements: The chapter ends by outlining the specified technical requirements for each component involved in the LLM Twin's architecture, ensuring it is efficient, scalable, and tailored to fulfill the outlined functionality .
 
