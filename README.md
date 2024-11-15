@@ -58,7 +58,7 @@ The **LLM Engineers Handbook** is a comprehensive guide for building production-
 **Tools Used**:
 
 - **Web Scraping Libraries**: BeautifulSoup, Scrapy.
-- **APIs**: GitHub API, Medium API.
+- **APIs**: GitHub API, Medium API, Linked In API.
 - **Data Warehouses**: Amazon S3, MongoDB.
 
 ---
@@ -70,7 +70,7 @@ The **LLM Engineers Handbook** is a comprehensive guide for building production-
 **Tools Used**:
 
 - **Embedding Models**: SentenceTransformers.
-- **Vector Databases**: Qdrant
+- **Vector Databases**: Qdrant DB
 - **RAG Frameworks**: Vanilla and Advanced RAG.
 
 ---
@@ -104,11 +104,10 @@ The **LLM Engineers Handbook** is a comprehensive guide for building production-
 
 **Content**: Details methods for assessing model performance using general-purpose and domain-specific benchmarks.
 
-**Tools Used**:
+- **Evaluation Techniques**: Multi-Choice-Question-Answering, LLM-as-a-judge
 
-- **Evaluation Frameworks**: OpenAI Evals, GLUE Benchmark.
-- **Metrics Libraries**: BLEU, ROUGE, Perplexity.
-- **Benchmark Suites**: HELM (Holistic Evaluation of Language Models).
+- **Evaluations**: Model Evaluation, RAG Evaluation and TwinLlama-3.1-8B Evaluation
+
 
 ---
 
@@ -116,6 +115,10 @@ The **LLM Engineers Handbook** is a comprehensive guide for building production-
 
 **Content**: Discusses strategies like speculative decoding and weight quantization to improve inference speed and efficiency.
 
+**Techniques**:
+Model optimization strategies, 
+Model parallelism, 
+Model quantization
 
 
 ---
@@ -124,11 +127,21 @@ The **LLM Engineers Handbook** is a comprehensive guide for building production-
 
 **Content**: Implements advanced RAG techniques and designs a custom retrieval module.
 
-**Tools Used**:
+**Pipeline WorkFlow**:
 
-- **Custom Retrieval Modules**: Built with Python and integrated with vector databases.
-- **Frameworks**: Inspiration from LangChain.
+**Pre-Retrieval**:
+        1. User Query
+        2. Query expansion
+        3. Self-querying
 
+**Retrieval**:
+        4. Filtered vector search
+
+**Post-Retrieval**:
+        5. Collecting results
+        6. Reranking
+        7. Build the prompt and call the LLM
+        8. Answer
 
 ---
 
@@ -153,7 +166,6 @@ The **LLM Engineers Handbook** is a comprehensive guide for building production-
 
 - **CI/CD Tools**: GitHub Actions.
 - **Containerization**: Docker, AWS ECR.
-- **Cloud Services**: AWS CloudFormation, Terraform.
 - **Version Control**: Git.
 
 ---
@@ -174,7 +186,7 @@ To maximize your learning experience, you should have:
 
 - **Programming Skills**: Familiarity with Python.
 - **Machine Learning Basics**: Understanding of basic ML and AI concepts.
-- **Software Development Knowledge**: Comfortable with data structures, algorithms, and APIs.
+- **Software Development Knowledge**: Comfortable with data structures, algorithms, OOps concepts and APIs.
 - **Version Control**: Experience with Git.
 - **Cloud Services**: Basic knowledge of AWS.
 
