@@ -147,19 +147,9 @@ The **Inference Pipeline** serves client queries by utilizing the fine-tuned LLM
 - **Use of MLOps Practices**: Incorporation of artifacts, model registries, and experiment tracking aligns with modern MLOps methodologies.
 - **LLM and RAG Specifics**: Special considerations are made for handling LLMs and implementing RAG, ensuring the system is optimized for these advanced technologies.
 
-By understanding each component and their interactions, one can appreciate how the system effectively implements the Feature-Transform-Inference (FTI) pattern while addressing the unique challenges associated with LLMs and RAG. End of chapter 1.
+By understanding each component and their interactions, one can appreciate how the system effectively implements the Feature-Transform-Inference (FTI) pattern while addressing the unique challenges associated with LLMs and RAG. 
+
+### End of chapter 1.
 
 
 
-```bash
-export PATH=$PATH:/C/Users/aksha/AppData/Roaming/Python/Scripts
-```
-
-Documents/Study/LLM/Handson-LLM-Engineers-Handbook/LLM-Engineers-Handbook
-
-```bash
-poetry poe local-infrastructure-up #local images of Docker for both databases will be pulled and run on your machine
-poetry shell
-poetry poe run-digital-data-etl # run data enginering pipeline
-poetry poe run-feature-engineering-pipeline # run feature engineering pipeline
-```
